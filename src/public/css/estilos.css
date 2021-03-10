@@ -1,0 +1,27 @@
+body{
+    background-color: #E6E6FA;
+}
+
+#contentWrap{
+  display: none;
+}
+
+.oscuro{
+  background-color: #1f1f1f;
+  color: #f1eded;
+}
+
+#link{
+  font-weight: 400;
+  text-decoration:none;
+  color: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+  letter-spacing: normal;
+  word-spacing: normal;
+  align-items: flex-start;
+  font: 400 Arial;
+  padding: .375rem .75rem;
+  border-radius: .25rem;
+
+}
