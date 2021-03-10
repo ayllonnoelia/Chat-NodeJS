@@ -28,7 +28,7 @@ function copiarAlPortapapelesFormato(id_elemento) {
  document.body.removeChild(aux);
 
 }
-
+/*
 window.onload = function() {
 
  var txt = document.getElementById('txt');
@@ -38,7 +38,7 @@ window.onload = function() {
      + encodeURIComponent(txt.value);
  };
 
-};
+};*/
 
 /*function run() {
 

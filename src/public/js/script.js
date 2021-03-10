@@ -1,1 +1,1 @@
-Cookies.set("cookiesenpagina", "true", {Secure:true});
+Cookies.set("cookiesenpagina", "true", {Secure:true},{httpOnly:true});

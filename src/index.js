@@ -14,20 +14,16 @@ const server = http.createServer(app);
 const io = socketio.listen(server);
 
 //Conexion a base de datos
-//
+//mongodb://localhost/chatNode
 mongoose.connect('mongodb+srv://admin:admin@cluster0.0lfgv.mongodb.net/chatNode?retryWrites=true&w=majority')
   .then(db => console.log("La base de datos está conectada."))
   .catch(e => { console.log(e) })
 
-/*app.get("/", (req, res) => {
-  res.setHeader("set-cookie", ["setfromserver=1","cookiesegura=este es el valor de mi cookie segura;httponly"])
-  res.sendFile(`${__dirname}`)
-})*/
-
 app.get("/", (req, res) => {
-  res.setHeader("set-cookie", ["setfromserver=1","cookiesegura=este es el valor de mi cookie segura;secure"])
+  res.setHeader("set-cookie", ["setfromserver=1","cookiesegura=este es el valor de mi cookie segura;Secure;httponly"])
   res.sendFile(`${__dirname}`)
 })
+
 
 
 //Ajustes
