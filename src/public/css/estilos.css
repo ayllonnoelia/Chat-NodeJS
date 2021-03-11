@@ -25,3 +25,8 @@ body{
   border-radius: .25rem;
 
 }
+
+.scroll{
+  max-height: 600px;
+  overflow-y: auto;
+}
