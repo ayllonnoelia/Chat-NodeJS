@@ -30,3 +30,7 @@ body{
   max-height: 600px;
   overflow-y: auto;
 }
+
+#chat{
+  height: 600px;
+}
